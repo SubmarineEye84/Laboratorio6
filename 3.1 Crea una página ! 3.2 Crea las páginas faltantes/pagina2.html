@@ -41,17 +41,124 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-5">
-        <img src="img/2.png" class="rounded" alt="...">
+      <div class="col-12 col-md-5 p-3 p-3 p-3 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#LanzModal">
+        <img src="img/2.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Lanz">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar"
+                aria-expanded="true" aria-controls="colapsar">
+                Lanz
+              </button>
+            </h2>
+            <div id="colapsar" class="accordion-collapse collapse show" data-bs-parent="#Lanz">
+              <div class="accordion-body">
+                <p>Co-protagonista de Xenoblade Chronicles 3, se nota que esta inspirado en Reyn del primer Xenoblade Chronicles.
+                  <br><br>
+                  Tiene una actitud muy tosca y no piensa antes de hacer las cosas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-5">
-        <img src="img/5.png" class="rounded" alt="...">
+      <div class="col-12 col-md-5 p-3 p-3 p-3 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#SenaModal">
+        <img src="img/5.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Sena">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar1"
+                aria-expanded="true" aria-controls="colapsar1">
+                Sena
+              </button>
+            </h2>
+            <div id="colapsar1" class="accordion-collapse collapse show" data-bs-parent="#Sena">
+              <div class="accordion-body">
+                <p>Co-protagonista de Xenoblade Chronicles 3, su diseño esta inspirado en Brighid de Xenoblade Chronicles 2.
+                  <br><br>
+                  Cuando se nos introduce y la vamos conociendo, nos damos cuenta que ella trata de imitar a otros y no puede ser sí misma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-2">
-        <img src="img/8.png" class="rounded" alt="...">
+      <div class="col-12 col-md-2 p-3 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#TritonModal">
+        <img src="img/8.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Triton">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar3"
+                aria-expanded="true" aria-controls="colapsar3">
+                Triton
+              </button>
+            </h2>
+            <div id="colapsar3" class="accordion-collapse collapse show" data-bs-parent="#Triton">
+              <div class="accordion-body">
+                <p>Pertenece al bando enemigo del juego, pero se alía con tu equipo después de unas misiones secundarias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <section>
+    <div class="modal fade" id="LanzModal" tabindex="-1" aria-labelledby="LanzModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="LanzModalLabel">Lanz</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado kevesí.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Lanz" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="SenaModal" tabindex="-1" aria-labelledby="SenaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="SenaModalLabel">Sena</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado agenesa.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Sena" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="TritonModal" tabindex="-1" aria-labelledby="TritonModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="TritonModalLabel">Triton</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Perosnaje secundario obtenible en una misión.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Triton" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"

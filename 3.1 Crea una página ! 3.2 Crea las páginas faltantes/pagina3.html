@@ -43,17 +43,124 @@
   <marquee direction="right"> <h1>Manuel de Jesus Flores Vidales</h1></marquee>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-5">
-        <img src="img/3.png" class="rounded" alt="...">
+      <div class="col-12 col-md-5 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#EunieModal">
+        <img src="img/3.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Eunie">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar"
+                aria-expanded="true" aria-controls="colapsar">
+                Eunie
+              </button>
+            </h2>
+            <div id="colapsar" class="accordion-collapse collapse show" data-bs-parent="#Eunie">
+              <div class="accordion-body">
+                <p>Co-protagonista de Xenoblade Chronicles 3, su actitud recuerda a Mythra de Xenoblade Chronicles 2.
+                  <br><br>
+                  Es un personaje de cabezadura lo que hace que tenga sus diferencias con Taion, pero sabe comprender a los demás.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-5">
-        <img src="img/6.png" class="rounded" alt="...">
+      <div class="col-12 col-md-5 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#TaionModal">
+        <img src="img/6.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Taion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar1"
+                aria-expanded="true" aria-controls="colapsar1">
+                Taion
+              </button>
+            </h2>
+            <div id="colapsar1" class="accordion-collapse collapse show" data-bs-parent="#Taion">
+              <div class="accordion-body">
+                <p>Co-protagonista de Xenoblade Chronicles 3, da aires a otros personajes serios de la franquicia.
+                  <br><br>
+                  Cuando se nos introduce nos damos cuenta de que es una persona demasiado inteligente y cuidadosa, es el estratega por excelencia del equipo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-2">
-        <img src="img/9.png" class="rounded" alt="...">
+      <div class="col-12 col-md-2 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#IsurdModal">
+        <img src="img/9.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Isurd">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar3"
+                aria-expanded="true" aria-controls="colapsar3">
+                Isurd
+              </button>
+            </h2>
+            <div id="colapsar3" class="accordion-collapse collapse show" data-bs-parent="#Isurd">
+              <div class="accordion-body">
+                <p>Tuvo roces con Taion por un incidente del pasado que causo bajas importantes en una misión, pero se le une como personaje de apoyo más adelante.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <section>
+    <div class="modal fade" id="EunieModal" tabindex="-1" aria-labelledby="EunieModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="EunieModalLabel">Eunie</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado kevesí.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Eunie" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="TaionModal" tabindex="-1" aria-labelledby="TaionModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="TaionModalLabel">Taion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado agnés.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Taion" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="IsurdModal" tabindex="-1" aria-labelledby="IsurdModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="IsurdModalLabel">Isurd</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Comandante de Colonia Lambda.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Isurd" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
