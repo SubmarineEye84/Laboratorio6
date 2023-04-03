@@ -1,50 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <title>Pagina 1</title>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar :D</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Principal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bg-info" aria-current="page" href="pagina1.html">Página 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pagina2.html">Página 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pagina3.html">Página 3</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Navbar -->
+<html lang="es">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-5">
-            <img src="img/1.png" class="rounded" alt="...">
-          </div>
-          <div class="col-12 col-md-5">
-            <img src="img/4.png" class="rounded" alt="...">
-          </div>
-          <div class="col-12 col-md-2">
-            <img src="img/7.png" class="rounded text-center" alt="...">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Página 1</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar :D</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-info" aria-current="page" href="pagina1.html">Página 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagina2.html">Página 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagina3.html">Página 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-5 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#NoahModal">
+          <img src="img/1.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Noah">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar"
+                aria-expanded="true" aria-controls="colapsar">
+                Noah
+              </button>
+            </h2>
+            <div id="colapsar" class="accordion-collapse collapse show" data-bs-parent="#Noah">
+              <div class="accordion-body">
+                <p>Protagonista de Xenoblade Chronicles 3, inspirado en el protagonista de Xenogears, Fei. Es bien sabido
+                  que el director de ambos juegos siempre quiso hacer una historia larga, que no pudo lograr con Xenogears
+                  ni con Xenosaga, pero actualmente lo está haciendo con Xenoblade.
+                  <br><br>
+                  Es serio y siempre reflexiona sobre lo que pasa, cuando era aprendiz de eximio su instructor murió por
+                  fuego cruzado en el cual el mismo se metió.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="col-12 col-md-5 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#MioModal">
+          <img src="img/4.png" class="rounded img-fluid" alt="..."></button>
+        <div class="accordion" id="Mio">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar1"
+                aria-expanded="true" aria-controls="colapsar1">
+                Mio
+              </button>
+            </h2>
+            <div id="colapsar1" class="accordion-collapse collapse show" data-bs-parent="#Mio">
+              <div class="accordion-body">
+                <p>Co-protagonista de Xenoblade Chronicles 3, inspirado en la co-protagonista de Xenogears, Elly. Originalmente el primer Xenoblade no iba a llamarse así, ni siquiera usar el prefijo "Xeno", fue a petición del presidente de Nintendo de ese entonces (Satoru Iwata) que se llamo así.
+                  <br><br>
+                  Cuando se nos introduce y la vamos conociendo, sabemos que es una persona que carga con la culpa de que alguien más joven que ella sacrificara su vida para salvarla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 p-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#MiyabiModal">
+          <img src="img/7.png" class="rounded img-fluid text-center" alt="..."></button>
+        <div class="accordion" id="Miyabi">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapsar3"
+                aria-expanded="true" aria-controls="colapsar3">
+                Miyabi
+              </button>
+            </h2>
+            <div id="colapsar3" class="accordion-collapse collapse show" data-bs-parent="#Miyabi">
+              <div class="accordion-body">
+                <p>Personaje secundario de Xenoblade Chronicles 3, ella se encargó de enseñarle a Mio a ser una eximia y le hizo empezar a dudar sobre el mundo en que se encontraban.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="modal fade" id="NoahModal" tabindex="-1" aria-labelledby="NoahModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="NoahModalLabel">Noah</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado kevesí y eximio de Keves.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Noah" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MioModal" tabindex="-1" aria-labelledby="MioModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="MioModalLabel">Mio</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Soldado agensa y eximia de Agnus.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Mio" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MiyabiModal" tabindex="-1" aria-labelledby="MiyabiModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="MiyabiModalLabel">Miyabi</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Eximia de Agnus
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.xenoserieswiki.org/wiki/Miyabi" target="_blank"><button type="button" class="btn btn-primary">Más información</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+  </section>
+</body>
+
+</html>
